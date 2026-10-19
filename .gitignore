@@ -1,0 +1,7 @@
+*.json
+!docs/manifest.webmanifest
+.env*
+node_modules/
+work/
+*备份*
+*提交批改*
