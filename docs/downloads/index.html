@@ -1,11 +1,12 @@
 <!doctype html>
-<html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#10282b"><title>红绿快点 · 安装包下载</title>
-<style>*{box-sizing:border-box}body{margin:0;background:#f3f7f5;color:#173f3e;font:17px/1.7 system-ui,sans-serif}main{max-width:520px;margin:8vh auto;padding:24px}h1{font-size:32px;line-height:1.2;margin:0 0 12px}.meta{font-size:14px;color:#4d6d63}.button{display:block;text-align:center;border-radius:12px;background:#164f43;color:#fff;text-decoration:none;font-weight:650;padding:16px;margin:24px 0 12px}.secondary{background:#e0eee7;color:#164f43;margin-top:0}ol{padding-left:24px}small{display:block;color:#4d6d63}footer{font-size:13px;margin-top:32px}a{color:#164f43}</style>
-<main><h1>红绿快点</h1><p>屏幕从红色变成绿色，自动点击指定位置。</p><p class="meta">Android 8.0 及以上 · 版本 1.0 · APK 33 KB</p>
-<a class="button" href="red-green-clicker-1.0.apk" download="red-green-clicker-1.0.apk">下载安卓安装包 APK</a>
-<a class="button secondary" href="red-green-clicker-1.0.zip" download="red-green-clicker-1.0.zip">下载 ZIP 备用包</a>
-<small>APK 下载失败时可以尝试 ZIP。下载 ZIP 后，先在手机文件管理器中解压，再打开里面的 APK 安装。</small>
-<h2>下载与使用</h2><ol><li>请用手机自带浏览器或 Chrome 打开本页，再点下载。</li><li>安装后，在应用中开启无障碍点击，并同意屏幕采集。</li><li>选择监测点和点击位置，再按开始。先看到红色，之后变绿才触发。</li></ol>
-<p>默认第一帧变绿即请求点击，无额外等待。实际速度取决于手机；可用应用里的测试页查看。</p>
-<small>屏幕颜色只在本机处理，不保存、不上传。此为个人签名安装包，仅支持安卓。</small>
-<footer><a href="https://github.com/c3LJ-Netizen/clljj/blob/main/downloads/red-green-clicker-README.md">完整使用说明与源码</a></footer></main></html>
+<html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#10282b"><title>红绿快点 1.1 · 安卓下载</title>
+<style>*{box-sizing:border-box}body{margin:0;background:#f3f7f5;color:#173f3e;font:17px/1.7 system-ui,sans-serif}main{max-width:520px;margin:5vh auto;padding:24px}h1{font-size:32px;line-height:1.2;margin:0 0 12px}.meta{font-size:14px;color:#4d6d63}.button{display:block;text-align:center;border-radius:12px;background:#164f43;color:#fff;text-decoration:none;font-weight:650;padding:16px;margin:24px 0 12px}.secondary{background:#e0eee7;color:#164f43;margin-top:0}ol{padding-left:24px}small{display:block;color:#4d6d63}footer{font-size:13px;margin-top:28px}a{color:#164f43}.note{background:#e0eee7;border-radius:12px;padding:16px}</style>
+<main><h1>红绿快点 <span style="font-size:18px">1.1 优化版</span></h1><p>屏幕由红变绿，自动点击指定位置。</p><p class="meta">Android 8.0 及以上 · 支持 Android 15 · APK 约 37 KB</p>
+<a class="button" href="red-green-clicker-1.1.apk" download="red-green-clicker-1.1.apk">下载 1.1 安卓安装包</a>
+<a class="button secondary" href="red-green-clicker-1.1.zip" download="red-green-clicker-1.1.zip">下载 1.1 ZIP 备用包</a>
+<small>请用手机自带浏览器或 Chrome 打开本页。APK 下载失败可尝试 ZIP，解压后打开里面的 APK。已安装 1.0 可覆盖升级。</small>
+<h2>这一版优化了什么</h2><p>默认半分辨率采集，识别线程直接提交点击，减少悬浮界面刷新。加入“连续10次”测试，显示中位数、P95 和分段耗时。</p>
+<div class="note"><strong>升级后这样测</strong><ol><li>开启无障碍、授权整个屏幕采集。</li><li>先用默认“50%采集＋直达＋1帧”，进入测试页，移开悬浮条后点“连续10次”。</li><li>再切换“100%采集＋关闭直达”作对照。更改分辨率后要保存设置并重新授权采集。</li></ol></div>
+<p>目标是降低延迟；实际提速需要手机实测，未承诺低于 50 ms。测试总时间仍从提交变色开始，包含渲染等待。</p>
+<small>画面只在本机内存处理，不保存、不上传。进入实际目标页面后，请重新选择监测点和点击位置。</small>
+<footer><a href="https://github.com/c3LJ-Netizen/clljj/blob/main/downloads/red-green-clicker-README.md">完整说明</a> · <a href="https://github.com/c3LJ-Netizen/clljj/raw/refs/heads/main/downloads/red-green-clicker-source-1.1.zip">1.1 源码</a> · <a href="red-green-clicker-1.0.apk" download>1.0 对照包</a><p>安卓通常不允许直接降级；回退 1.0 可能需先卸载 1.1，卸载会清除设置。</p></footer></main></html>

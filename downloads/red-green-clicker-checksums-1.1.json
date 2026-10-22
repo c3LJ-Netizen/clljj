@@ -1,0 +1,22 @@
+{
+  "red-green-clicker-1.1.apk": {
+    "bytes": 37405,
+    "sha256": "0ac876c0fdabf18fea19a72fcbd40e1f9c23878d76e4288853d27ecadab9c956"
+  },
+  "red-green-clicker-1.1.zip": {
+    "bytes": 33716,
+    "sha256": "fb9d31c1164a7c86d1f3578168d35f444021243946878c7240f87ff10d3a1832"
+  },
+  "red-green-clicker-source-1.1.zip": {
+    "bytes": 31030,
+    "sha256": "ac4533614b8453379ecfecc5f043afa4e8e441e7d083ad83c41a683f110fbd48"
+  },
+  "red-green-clicker-README-1.1.md": {
+    "bytes": 7235,
+    "sha256": "456bd47fa75c2a713a284653d0a765d9a93bfd0c6ce8fb5733fbb62e23f2e4e7"
+  },
+  "index.html": {
+    "bytes": 2781,
+    "sha256": "d981b8fd3f579a6ec0631f1ab4d60b8d45bc43a5420331b42b1f9d680d7bae15"
+  }
+}
